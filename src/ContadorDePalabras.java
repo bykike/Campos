@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 public class ContadorDePalabras {
 
 	
@@ -18,6 +20,16 @@ public class ContadorDePalabras {
 
 	    System.out.println (contador);
 
+	    JOptionPane.showMessageDialog(null, "Operación realizada correctamente");
+	    
+		
+	    String respuesta = JOptionPane.showInputDialog("Escribe tu nombre");
+	    
+	    Object color = JOptionPane.showInputDialog(null,"Seleccione Un Color",
+	    		   "COLORES", JOptionPane.QUESTION_MESSAGE, null,
+	    		  new Object[] { "Seleccione","Amarillo", "Azul", "Rojo" },"Seleccione");
+	    
+	    
 	}
 
 }
