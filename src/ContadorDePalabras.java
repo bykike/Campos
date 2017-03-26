@@ -20,15 +20,21 @@ public class ContadorDePalabras {
 
 	    System.out.println (contador);
 
+	    // Uso de mensaje 
 	    JOptionPane.showMessageDialog(null, "Operación realizada correctamente");
 	    
-		
+	    // Caja para introducir texto
 	    String respuesta = JOptionPane.showInputDialog("Escribe tu nombre");
-	    
+	    System.out.println("El usuario ha elegido "+respuesta);
+
+	    // Caja con arreglo para seleccionar opción
 	    Object color = JOptionPane.showInputDialog(null,"Seleccione Un Color",
 	    		   "COLORES", JOptionPane.QUESTION_MESSAGE, null,
 	    		  new Object[] { "Seleccione","Amarillo", "Azul", "Rojo" },"Seleccione");
 	    
+	    System.out.println("El usuario ha elegido "+color);
+	    
+
 	    
 	}
 
