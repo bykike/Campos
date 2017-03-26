@@ -1,4 +1,16 @@
+
 import javax.swing.JOptionPane;
+
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+ 
+import java.util.Scanner;
+
 
 public class ContadorDePalabras {
 
@@ -34,8 +46,13 @@ public class ContadorDePalabras {
 	    
 	    System.out.println("El usuario ha elegido "+color);
 	    
-
+	    // Input/output de mensaje 
+	    Scanner input = new Scanner(System.in);
+	    System.out.println("Inserte texto a continuación:");
+	    String text = input.nextLine();
+	    System.out.println(text);
+	    
+	    
 	    
 	}
-
 }
