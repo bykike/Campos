@@ -1,3 +1,5 @@
+// Uso de Swing "biblioteca gráfica para Java". 
+// Incluye widgets para interfaz gráfica de usuario tales como cajas de texto, botones, desplegables y tablas.
 
 import javax.swing.JOptionPane;
 
